@@ -15,19 +15,28 @@ const SimpleBreadcrumb = () => {
 
         <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" className="text-gray-600 dark:text-gray-200 hover:underline">
+        <a
+          href="#"
+          className="text-gray-600 dark:text-gray-200 hover:underline"
+        >
           Account
         </a>
 
         <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" className="text-gray-600 dark:text-gray-200 hover:underline">
+        <a
+          href="#"
+          className="text-gray-600 dark:text-gray-200 hover:underline"
+        >
           Profile
         </a>
 
         <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline">
+        <a
+          href="#"
+          className="text-blue-600 dark:text-blue-400 hover:underline"
+        >
           Settings
         </a>
       </div>
