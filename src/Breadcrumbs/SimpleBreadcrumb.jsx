@@ -1,11 +1,11 @@
 const SimpleBreadcrumb = () => {
   return (
     <div>
-      <div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
-        <a href="#" class="text-gray-600 dark:text-gray-200">
+      <div className="flex items-center py-4 overflow-x-auto whitespace-nowrap">
+        <a href="#" className="text-gray-600 dark:text-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5"
+            className="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -13,21 +13,21 @@ const SimpleBreadcrumb = () => {
           </svg>
         </a>
 
-        <span class="mx-5 text-gray-500 dark:text-gray-300">/</span>
+        <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" class="text-gray-600 dark:text-gray-200 hover:underline">
+        <a href="#" className="text-gray-600 dark:text-gray-200 hover:underline">
           Account
         </a>
 
-        <span class="mx-5 text-gray-500 dark:text-gray-300">/</span>
+        <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" class="text-gray-600 dark:text-gray-200 hover:underline">
+        <a href="#" className="text-gray-600 dark:text-gray-200 hover:underline">
           Profile
         </a>
 
-        <span class="mx-5 text-gray-500 dark:text-gray-300">/</span>
+        <span className="mx-5 text-gray-500 dark:text-gray-300">/</span>
 
-        <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+        <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline">
           Settings
         </a>
       </div>

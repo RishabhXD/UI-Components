@@ -1,4 +1,4 @@
-import { ToastContainer,toast,Zoom,Bounce } from "react-toastify";
+import { ToastContainer, toast, Zoom, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import ErrorAlert from "./Alerts/ErrorAlert";
@@ -14,9 +14,13 @@ import ArrowBreadcrumb from "./Breadcrumbs/ArrowBreadcrumb";
 import IconsBreadcrumb from "./Breadcrumbs/IconsBreadcrumb";
 import FullWidthBreadcrumb from "./Breadcrumbs/FullWidthBreadcrumb";
 import FullWidthIconsBreadcrumb from "./Breadcrumbs/FullWidthIconsBreadcrumb";
+import GroupButton from "./Buttons/GroupButton";
+import GroupIconButton from "./Buttons/GroupIconButton";
+import IconButton from "./Buttons/IconButton";
+import PrimaryButton from "./Buttons/PrimaryButton";
+import MenuButton from "./Buttons/MenuButton";
 
 function App() {
-
   toast.error("Error");
   toast.success("Success");
 
@@ -30,11 +34,16 @@ function App() {
       <InfoFWAlert />
       <WarningFWAlert />
       <ErrorFWAlert />
-      <SimpleBreadcrumb/>
-      <ArrowBreadcrumb/>
-      <IconsBreadcrumb/>
-      <FullWidthBreadcrumb/>
-      <FullWidthIconsBreadcrumb/>
+      <SimpleBreadcrumb />
+      <ArrowBreadcrumb />
+      <IconsBreadcrumb />
+      <FullWidthBreadcrumb />
+      <FullWidthIconsBreadcrumb />
+      <GroupButton />
+      <GroupIconButton />
+      <IconButton />
+      <PrimaryButton />
+      <MenuButton />
     </>
   );
 }

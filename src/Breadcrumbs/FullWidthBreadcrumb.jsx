@@ -1,12 +1,12 @@
 const FullWidthBreadcrumb = () => {
   return (
     <div>
-      <div class="bg-gray-200 dark:bg-gray-800">
-        <div class="container flex items-center px-6 py-4 mx-auto overflow-x-auto whitespace-nowrap">
-          <a href="#" class="text-gray-600 dark:text-gray-200">
+      <div className="bg-gray-200 dark:bg-gray-800">
+        <div className="container flex items-center px-6 py-4 mx-auto overflow-x-auto whitespace-nowrap">
+          <a href="#" className="text-gray-600 dark:text-gray-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5"
+              className="w-5 h-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -14,60 +14,69 @@ const FullWidthBreadcrumb = () => {
             </svg>
           </a>
 
-          <span class="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
+          <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5"
+              className="w-5 h-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
           </span>
 
-          <a href="#" class="text-gray-600 dark:text-gray-200 hover:underline">
+          <a
+            href="#"
+            className="text-gray-600 dark:text-gray-200 hover:underline"
+          >
             Account
           </a>
 
-          <span class="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
+          <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5"
+              className="w-5 h-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
           </span>
 
-          <a href="#" class="text-gray-600 dark:text-gray-200 hover:underline">
+          <a
+            href="#"
+            className="text-gray-600 dark:text-gray-200 hover:underline"
+          >
             Profile
           </a>
 
-          <span class="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
+          <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5"
+              className="w-5 h-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
           </span>
 
-          <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+          <a
+            href="#"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
             Settings
           </a>
         </div>
